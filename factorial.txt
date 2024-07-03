@@ -1,0 +1,11 @@
+print "PROGRAM TO FIND FACTORIAL USING RECURSION"
+n=int(input("Enter a positive Integer : "))
+def factorial(x):
+        if x==1:
+                return 1
+        else :
+                return (x*factorial(x-1))
+fact=factorial(n)
+print "-------output---------"
+print "NUMBER : ",n
+print "FACTORIAL OF ",n," IS ",fact
